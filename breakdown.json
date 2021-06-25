@@ -1,0 +1,181 @@
+{
+  "frais": {
+    "frais ordinaires": [
+      {"start":1680, "end":1692},
+      {"start":1723, "end":1724}
+    ],
+    "frais du jour": [
+      {"start":1692, "end":1722},
+      {"start":1725, "end":1736},
+      {"start":1737, "end":1737},
+      {"start":1743, "end":1747}
+    ],
+    "frais extraordinaires": [
+      {"start":1680, "end":1688},
+      {"start":1689, "end":1719},
+      {"start":1724, "end":1725},
+      {"start":1740, "end":1743},
+      {"start":1748, "end":1755}
+    ],
+    "frais d": [
+      {"start":1688, "end":1689}
+    ],
+    "menus frais": [
+      {"start":1688, "end":1689}
+    ],
+    "menus frais de théâtre pendant le mois": [
+      {"start":1760, "end":1762}
+    ],
+    "a MM. __ de frais de voiture pour avoir été __": [
+      {"start":1760, "end":1770}
+    ],
+    "a MM. __": [
+      {"start":1770, "end":1776}
+    ],
+    "frais de voiture": [
+      {"start":1773, "end":1776}
+    ]
+  },
+  "pensions, gages et etablissement": {
+    "pensions (et al.)": [
+        {"start":1680, "end":1719},
+        {"start":1724, "end":1725}
+    ],
+    "etablissement": [
+      {"start":1688, "end":1719}
+    ],
+    "etablissement, pensions et gages": [
+      {"start":1725, "end":1755}
+    ]
+  },
+  "jetons": {
+    "jetons d'assemblé de ce jour": [
+      {"start":1760, "end":1776}
+    ],
+    "jetons de la lecture": [
+      {"start":1760, "end":1776}
+    ],
+    "jetons du comité": [
+      {"start":1760, "end":1776}
+    ],
+    "jetons de semainiers": [
+      {"start":1706, "end":1719},
+      {"start":1729, "end":1742},
+      {"start":1743, "end":1747}
+    ]
+  },
+  "feux": {
+    "feux et jetons des semainiers": [
+      {"start":1722, "end":1724}
+    ],
+    "feux & chandelles des acteurs": [
+      {"start":1684, "end":1692}
+    ],
+    "feux des acteurs": [
+      {"start":1693, "end":1719}
+    ],
+    "feux": [
+      {"start":1724, "end":1755}
+    ],
+    "feux d'enfant dans": [
+      {"start":1760, "end":1769}
+    ],
+    "feux d'acteurs et d'actrices (à deux livres)": [
+      {"start":1760, "end":1776}
+    ]
+  },
+  "eclairage": {
+    "chandelles des ailes, passages, etc": [
+      {"start":1691, "end":1692}
+    ],
+    "chandelles ordinaires": [
+      {"start":1692, "end":1724}
+    ],
+    "chandelles du jour": [
+      {"start":1724, "end":1755}
+    ],
+    "chandelles extraordinaires": [
+      {"start":1692, "end":1706},
+      {"start":1722, "end":1724}
+    ],
+    "chandelles et lampions extraordinaires": [
+      {"start":1718, "end":1719}
+    ],
+    "bougie": [
+      {"start":1740, "end":1743},
+      {"start":1747, "end":1755}
+    ]
+  },
+  "affiches (et al.)": {
+    "affiches & barbier": [
+      {"start":1724, "end":1729}
+    ],
+    "affiches & gont": [
+      {"start":1729, "end":1742},
+      {"start":1743, "end":1747}
+    ],
+    "affiches": [
+      {"start":1742, "end":1743},
+      {"start":1747, "end":1755}
+    ]
+  },
+  "gardes, soldats": {
+    "la garde": [
+      {"start":1752, "end":1755}
+    ],
+    "a la garde française": [
+      {"start":1760, "end":1762},
+      {"start":1763, "end":1764}
+    ],
+    "a la garde militaire, trente-trois livres dix sols":[
+      {"start":1762, "end":1763},
+      {"start":1764, "end":1776}
+    ],
+    "soldats assistants, à chacun": [
+      {"start":1760, "end":1776}
+    ]
+  },
+  "divers, entretien du théâtre": {
+    "porte et bureau": [
+      {"start":1688, "end":1689}
+    ],
+    "bois": [
+      {"start":1693, "end":1719}
+    ],
+    "lustres et décorations": [
+      {"start":1718, "end":1719}
+    ]
+  },
+  "catégories comptables": {
+    "part": [
+      {"start":1680, "end":1755}
+    ],
+    "reste": [
+      {"start":1680, "end":1680},
+      {"start":1683, "end":1692},
+      {"start":1695, "end":1755}
+    ],
+    "défalque": [
+      {"start":1688, "end":1691}
+    ],
+    "preuve": [
+      {"start":1688, "end":1692},
+      {"start":1695, "end":1755}
+    ]
+  },
+  "autres types de frais": {
+    "postes surnuméraires et monnaie": [
+      {"start":1747, "end":1748},
+      {"start":1749, "end":1755}
+    ],
+    "emprunt":[
+      {"start":1729, "end":1740},
+      {"start":1741, "end":1747},
+      {"start":1748, "end":1749}
+    ],
+    "le dixième de l'hôtel-dieu": [
+      {"start":1737, "end":1743},
+      {"start":1747, "end":1755}
+    ]
+  }
+}

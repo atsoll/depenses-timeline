@@ -1,0 +1,21 @@
+
+body {
+   font-family: Nunito;
+   font-size: 14px;
+   color: #383838;
+}
+
+.cat-label {
+  margin-left: 5px;
+}
+
+.cat-label:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tick {
+  font-family: Nunito;
+  font-size: 14px;
+  color: #383838;
+}
