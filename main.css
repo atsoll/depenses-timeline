@@ -3,6 +3,7 @@ body {
    font-family: Nunito;
    font-size: 14px;
    color: #383838;
+   overflow-x: hidden;
 }
 
 .cat-label {

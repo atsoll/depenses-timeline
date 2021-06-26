@@ -148,6 +148,8 @@ function init() {
        d3.select("#group" + i)
        .selectAll(".expense")
        .selectAll("rect")
+       .transition()
+       .duration(500)
        .attr("y", function(){
          return getY(i, parseInt(d3.select(this.parentNode).attr('index')))
        })
@@ -157,6 +159,8 @@ function init() {
        d3.select("#group" + i)
        .selectAll(".expense")
        .selectAll("circle")
+       .transition()
+       .duration(500)
         .attr("cy", function(){
           return getY(i, parseInt(d3.select(this.parentNode).attr('index')))+rad
         })
@@ -165,6 +169,8 @@ function init() {
        d3.select("#group" + i)
         .selectAll(".expense")
         .selectAll("line")
+        .transition()
+        .duration(500)
         .attr("y1", function(){
           return getY(i, parseInt(d3.select(this.parentNode).attr('index')))+rad
         })
@@ -174,6 +180,8 @@ function init() {
 
         d3.select("#group" + i)
          .select(".cat-label")
+         .transition()
+         .duration(500) 
          .attr("y", function() {
            return getY(i,0)+rad
          })
