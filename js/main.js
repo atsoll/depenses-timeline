@@ -49,14 +49,21 @@ angular.module('d3', [])
       };
 }]);
 
-var app = angular.module('app', [ 'd3', 'ezplus']);
+var app = angular.module('app', [ 'd3', 'ezplus', 'ui.bootstrap']);
 
 
-app.controller('ctrl', function($scope, $window, $document) {
+app.controller('ctrl', function($scope, $window, $document, $uibModal) {
 
   $scope.model = {
-    view_mode: false
+    view_mode: false,
   }
+
+  /*var dialog = $("#about-dialog" ).dialog({
+    autoOpen: false,
+    modal: true,
+    width: '75%',
+    closeText: null
+  });*/
 
   $scope.toggle_mode = function(){
 
@@ -67,9 +74,31 @@ app.controller('ctrl', function($scope, $window, $document) {
     }
     else {
         $('#timeline svg').css("display", "")
-      
+
     }
   }
+
+  //maybe change how this works a bit later
+  $scope.openModal = function(type) {
+    $scope.model.modalInstance = $uibModal.open({
+      templateUrl: "about.html",
+      scope: $scope,
+      size: 'lg'
+    });
+  }
+
+   $scope.closeModal = function() {
+     $scope.model.modalInstance.close();
+   }
+
+  /*$scope.openDialog = function(){
+    console.log("here")
+     dialog.dialog( "open" );
+  }
+
+  $scope.closeDialog = function() {
+     dialog.dialog( "close" );
+  }*/
 
 
   /*
